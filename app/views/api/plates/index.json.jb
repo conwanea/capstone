@@ -1,0 +1,13 @@
+@plates.map do |plate|
+  {
+    id: plate.id,
+    print_name: plate.print_name,
+    scientific_name: plate.scientific_name,
+    plate_number: plate.plate_number,
+    medium: plate.medium,
+    price: plate.price,
+    number_of_prints: plate.number_of_prints,
+    description: plate.description,
+    image_url: plate.image_url,
+  }
+end
