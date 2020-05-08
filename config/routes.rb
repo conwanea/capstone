@@ -9,5 +9,11 @@ Rails.application.routes.draw do
 
     get "/users" => "users#index"
     get "/users/:id" => "users#show"
+
+    get "/orders" => "orders#index"
+    get "/orders/:id" => "orders#show"
+
+    get "/carted_products" => "carted_products#index"
+    get "/carted_products/:id" => "carted_products#show"
   end
 end
