@@ -28,5 +28,6 @@ Rails.application.routes.draw do
     patch "/carted_products/:id" => "carted_products#update"
     delete "/carted_products/:id" => "carted_products#destroy"
 
+    post "/sessions" => "sessions#create"
   end
 end
