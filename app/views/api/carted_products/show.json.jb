@@ -2,7 +2,7 @@
   id: @carted_product.id,
   status: @carted_product.status,
   user_id: @carted_product.user_id,
-  product_id: @carted_product.product_id,
+  plate_id: @carted_product.plate_id,
   quantity: @carted_product.quantity,
   order_id: @carted_product.order_id,
 }
